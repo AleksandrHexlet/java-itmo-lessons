@@ -54,4 +54,10 @@ public class Cat {
             enemy.winner++;
         }
     }
+
+    public static Cat getCat(){
+        Cat cat = new Cat((int) (Math.random()* 30),(int) (Math.random()* 50), 100);
+        return cat;
+
+    }
 }
